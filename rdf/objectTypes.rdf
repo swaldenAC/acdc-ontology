@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:og="http://ogp.me/ns#">
+
+  <rdf:Description rdf:about="http://acdc.amherst.edu/ontology/objectTypes#">
+    <dcterms:title>Amherst College Digital Collections Object Type Vocabulary</dcterms:title>   
+    <rdfs:comment>
+      Amherst College Digital Collections - Object Type Vocabulary, Version 1.0
+    </rdfs:comment>
+  </rdf:Description>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Article">
+    <rdfs:label xml:lang="en">Article</rdfs:label>
+    <og:type>article</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/ScholarlyArticle"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300048715"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Art"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Dataset">
+    <rdfs:label xml:lang="en">Dataset</rdfs:label>
+    <og:type>object</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/Dataset"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300028543"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Dat"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Audio">
+    <rdfs:label xml:lang="en">Audio</rdfs:label>
+    <og:type>object</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/MusicRecording"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300028633"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Aud"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Book">
+    <rdfs:label xml:lang="en">Book</rdfs:label>
+    <og:type>book</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/Book"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300028051"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Txt"/>
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Proceeding">
+    <rdfs:label xml:lang="en">Conference Proceeding</rdfs:label>
+    <og:type>article</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300027316"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Txt"/>
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Image">
+    <rdfs:label xml:lang="en">Image</rdfs:label>
+    <og:type>object</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/ImageObject"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300264387"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Img"/>
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Map">
+    <rdfs:label xml:lang="en">Map or Cartographic Material</rdfs:label>
+    <og:type>object</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/Map"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300028094"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Car"/>
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Project">
+    <rdfs:label xml:lang="en">Project</rdfs:label>
+    <og:type>object</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300048788"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Unk"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Code">
+    <rdfs:label xml:lang="en">Software or Program Code</rdfs:label>
+    <og:type>object</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/Code"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300028566"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Dig"/>
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Video">
+    <rdfs:label xml:lang="en">Video</rdfs:label>
+    <og:type>object</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/VideoObject"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300028682"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Mov"/>
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Media">
+    <rdfs:label xml:lang="en">Multimedia Work</rdfs:label>
+    <og:type>object</og:type>
+    <skos:mappingRelation rdf:resource="http://schema.org/MediaObject"/>
+    <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300047910"/>
+    <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Mul"/>
+  </rdfs:Class>
+</rdf:RDF>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<rdf:RDF
+  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'>
+  
+  <rdf:Description rdf:about='http://acdc.amherst.edu/ontology/license#'>
+    <rdfs:comment>Amherst College Digital Collections - License Vocabulary, Version 1.0</rdfs:comment>
+  </rdf:Description>
+  
+  <rdfs:Class rdf:about='http://acdc.amherst.edu/ontology/license#PublicDomain'>
+    <rdfs:label xml:lang='en'>Public Domain Mark 1.0</rdfs:label>
+    <cc:license rdf:resource='http://creativecommons.org/publicdomain/mark/1.0/' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Reproduction' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Distribution' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#DerivativeWorks' />
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about='http://acdc.amherst.edu/ontology/license#Zero'>
+    <rdfs:label xml:lang='en'>CC0 1.0 Universal</rdfs:label>
+    <cc:license rdf:resource='http://creativecommons.org/publicdomain/zero/1.0/' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Reproduction' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Distribution' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#DerivativeWorks' />
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about='http://acdc.amherst.edu/ontology/license#AttributionNoDerivatives'>
+    <rdfs:label xml:lang='en'>Attribution-NoDerivatives 4.0 International</rdfs:label>
+    <cc:license rdf:resource='http://creativecommons.org/licenses/by-nd/4.0/' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Reproduction' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Distribution' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Attribution' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Notice' />
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about='http://acdc.amherst.edu/ontology/license#Attribution'>
+    <rdfs:label xml:lang='en'>Attribution 4.0 International</rdfs:label>
+    <cc:license rdf:resource='http://creativecommons.org/licenses/by/4.0/' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Sharing' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Distribution' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#DerivativeWorks' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Attribution' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Notice' />
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about='http://acdc.amherst.edu/ontology/license#AttributionNonCommercialNoDerivatives'>
+    <rdfs:label xml:lang='en'>Attribution-NonCommercial-NoDerivatives 4.0 International</rdfs:label>
+    <cc:license rdf:resource='http://creativecommons.org/licenses/by-nc-nd/4.0/' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Reproduction' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Distribution' />
+    <cc:prohibits rdf:resource='http://creativecommons.org/ns#CommercialUse' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Attribution' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Notice' />
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about='http://acdc.amherst.edu/ontology/license#AttributionNonCommercial'>
+    <rdfs:label xml:lang='en'>Attribution-NonCommercial 4.0 International</rdfs:label>
+    <cc:license rdf:resource='http://creativecommons.org/licenses/by-nc/4.0/' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Reproduction' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Distribution' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#DerivativeWorks' />
+    <cc:prohibits rdf:resource='http://creativecommons.org/ns#CommercialUse' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Attribution' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Notice' />
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about='http://acdc.amherst.edu/ontology/license#AttributionShareAlike'>
+    <rdfs:label xml:lang='en'>Attribution-ShareAlike 4.0 International</rdfs:label>
+    <cc:license rdf:resource='http://creativecommons.org/licenses/by-sa/4.0/' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Reproduction' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Distribution' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#DerivativeWorks' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Attribution' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#ShareAlike' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Notice' />
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about='http://acdc.amherst.edu/ontology/license#AttributionNonCommercialShareAlike'>
+    <rdfs:label xml:lang='en'>Attribution-NonCommercial-ShareAlike 4.0 International</rdfs:label>
+    <cc:license rdf:resource='http://creativecommons.org/licenses/by-nc-sa/4.0/' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Reproduction' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#Distribution' />
+    <cc:permits rdf:resource='http://creativecommons.org/ns#DerivativeWorks' />
+    <cc:prohibits rdf:resource='http://creativecommons.org/ns#CommercialUse' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Attribution' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#ShareAlike' />
+    <cc:requires rdf:resource='http://creativecommons.org/ns#Notice' />
+  </rdfs:Class>
+
+</rdf:RDF>
