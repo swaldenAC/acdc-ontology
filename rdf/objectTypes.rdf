@@ -100,4 +100,22 @@
     <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300047910"/>
     <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Mul"/>
   </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#AuthorDraft">
+    <rdfs:label xml:lang="en">Author's Draft</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#AuthorFinalVersion">
+    <rdfs:label xml:lang="en">Author's Final Version</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#PublishedVersion">
+    <rdfs:label xml:lang="en">Published Version</rdfs:label>
+  </rdfs:Class>
+
+  <rdf:Property rdf:about="http://acdc.amherst.edu/ontology/objectTypes#publicationVersion">
+    <rdfs:label xml:lang="en">publication version</rdfs:label>
+  </rdf:Property>
+
+
 </rdf:RDF>
