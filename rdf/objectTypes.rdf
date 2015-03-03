@@ -113,8 +113,8 @@
     <rdfs:label xml:lang="en">Published Version</rdfs:label>
   </rdfs:Class>
 
-  <rdf:Property rdf:about="http://acdc.amherst.edu/ontology/objectTypes#publicationVersion">
-    <rdfs:label xml:lang="en">publication version</rdfs:label>
+  <rdf:Property rdf:about="http://acdc.amherst.edu/ontology/objectTypes#isPublicationVersion">
+    <rdfs:label xml:lang="en">is publication version</rdfs:label>
   </rdf:Property>
 
 
