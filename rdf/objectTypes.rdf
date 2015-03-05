@@ -4,13 +4,17 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
   xmlns:og="http://ogp.me/ns#">
 
   <rdf:Description rdf:about="http://acdc.amherst.edu/ontology/objectTypes#">
     <dcterms:title>Amherst College Digital Collections Object Type Vocabulary</dcterms:title>   
+    <dcterms:publisher rdf:resource="https://acdc.amherst.edu"/>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-03-05</dcterms:modified>
     <rdfs:comment>
       Amherst College Digital Collections - Object Type Vocabulary, Version 1.0
     </rdfs:comment>
+    <owl:versionInfo>2015/03/05</owl:versionInfo>
   </rdf:Description>
 
   <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Article">
