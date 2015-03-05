@@ -100,4 +100,30 @@
     <skos:mappingRelation rdf:resource="http://vocab.getty.edu/aat/300047910"/>
     <skos:mappingRelation rdf:resource="http://id.loc.gov/vocabulary/resourceTypes/Mul"/>
   </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#Version">
+    <rdfs:label xml:lang="en">Publication Version</rdfs:label>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#AuthorDraft">
+    <rdfs:label xml:lang="en">Author's Draft</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://acdc.amherst.edu/ontology/objectTypes#Version"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#AuthorFinalVersion">
+    <rdfs:label xml:lang="en">Author's Final Version</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://acdc.amherst.edu/ontology/objectTypes#Version"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://acdc.amherst.edu/ontology/objectTypes#PublishedVersion">
+    <rdfs:label xml:lang="en">Published Version</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://acdc.amherst.edu/ontology/objectTypes#Version"/>
+  </rdfs:Class>
+
+  <rdf:Property rdf:about="http://acdc.amherst.edu/ontology/objectTypes#versionType">
+    <rdfs:label xml:lang="en">version type</rdfs:label>
+    <rdfs:range rdf:resource="http://acdc.amherst.edu/ontology/objectTypes#Version"/>
+  </rdf:Property>
+
+
 </rdf:RDF>
