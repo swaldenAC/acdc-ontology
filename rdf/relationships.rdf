@@ -8,7 +8,7 @@
   <rdf:Description rdf:about='http://acdc.amherst.edu/relationships#'>
     <rdfs:comment>Amherst College Digital Collections - Object Relationship Vocabulary, Version 1.0</rdfs:comment>
     <owl:versionInfo>2015/03/10</owl:versionInfo>
-    <rdf:dataType>2015/03/10</rdf:dataType>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015/03/10</dcterms:modified>
   </rdf:Description>
 
   <rdf:Property rdf:about='http://acdc.amherst.edu/relationships#hasPageNumber'>
